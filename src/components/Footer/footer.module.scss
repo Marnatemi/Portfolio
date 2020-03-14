@@ -1,0 +1,39 @@
+@import '../../atoms/theme/settings.scss';
+@import '../../atoms/theme/index.scss';
+
+.footer {
+  background-image:url(../../images/selective-color-photography-of-pink-petaled-flower-1182338.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  height: 95px;
+  width: 100%;
+  color: $color-light;
+  font-size: $base-size/1.3;
+  text-align: center;
+  .container {
+    width:80%;
+    margin: auto;
+    .links_wrapper {
+      @include flex (center, space-around);
+      width: 150px;
+      height: 70px;
+      margin: auto;
+      font-size: $base-size*2;
+      a {
+        color: inherit;
+        &:hover {
+          transform: scale(1.2, 1.2);
+        }
+      }
+    }
+  }
+  p {
+      margin: -8px 0 0 0;
+      border-radius: $radius;
+  }
+}
+
+
+@media (max-width: 576px) {
+  //p{background-color: $color-dark;}
+}

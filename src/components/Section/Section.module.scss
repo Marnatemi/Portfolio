@@ -1,0 +1,102 @@
+@import '../../atoms/theme/settings.scss';
+@import '../../atoms/theme/index.scss';
+
+
+@mixin section-base($align) {
+  height: auto;
+  padding: $base-size*2 0;
+  text-align: $align;
+  margin-bottom: $base-size*5;
+  position: relative;
+
+  .wrapper{
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
+  }
+}
+
+@mixin title-base($color) {
+  position: relative;
+  font-family: $font-title;
+  font-size: $base-size*3;
+  color: $color;
+    margin-bottom: $base-size/2;
+  //padding: 0 $base-size*3;
+}
+@mixin subtitle-base($color) {
+  font-family: $font-subtitle;
+  font-size: $base-size*1.5;
+  color: $color;
+  margin: 0 0 $base-size*2;
+  //padding: 0 $base-size*2;
+}
+@mixin before-base($color, $deg) {
+  content: '';
+  display: block;
+  position: absolute;
+  background: $color;
+  z-index: -1;
+  top: -40px;
+  width: 200px;
+  height: 200px;
+  transform: rotate($deg)
+}
+
+.section{
+  &.left_light {
+    @include section-base(left);
+    .title {
+      @include title-base($color-dark);
+      &::before {
+        @include before-base($color-secondary, -20deg);
+        left: -25px;
+      }
+    }
+    .subtitle {
+      @include subtitle-base($color-rose)
+    }
+  }
+  &.right_light {
+    @include section-base(right);
+    .title {
+      @include title-base($color-dark);
+      &::before {
+        @include before-base($color-secondary, 20deg);
+        right: -25px;
+      }
+    }
+    .subtitle {
+      @include subtitle-base($color-rose)
+    }
+  }
+  &.left_dark {
+    @include section-base(left);
+    background: $color-dark;
+    .title {
+      @include title-base($color-light);
+      // &::before {
+      //   @include before-base($color-secondary, -20deg);
+      //   left: -25px;
+      // }
+    }
+    .subtitle {
+      @include subtitle-base($color-primary);
+      font-weight: 400;
+    }
+  }
+  &.right_dark {
+    @include section-base(right);
+    background: $color-dark;
+    .title {
+      @include title-base($color-light);
+      &::before {
+        @include before-base($color-rose, 20deg);
+      }
+    }
+    .subtitle {
+      @include subtitle-base($color-primary);
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import '../../atoms/theme/settings.scss';
+@import '../../atoms/theme/index.scss';
+
+.content {
+  //margin-right: 17%;
+  margin: auto;
+  //padding-right: 5%;
+  max-width: 650px;
+  border-right: solid $color-rose;
+  margin-bottom: 80px;
+  text-align: center;
+  color: $color-dark;
+}
+
+.form_group {
+  margin-bottom: 20px;
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: $font-title;
+    font-size: $base-size*1.1;
+  }
+  .form_control {
+    cursor: text;
+    margin: auto;
+    display: block;
+    width: 70%;
+    border: 2px solid $color-secondary;
+    border-radius: $radius;
+    padding: 10px 15px;
+    background-color: $color-light;
+    outline: none;
+    font-family: $font-text;
+    text-align: center;
+    &:focus{
+      box-shadow: 0 0 4px $color-dark;
+      
+    }
+  }
+}
+
+.btn {
+  cursor: pointer;
+  color: $color-light;
+  background-color: $color-secondary; 
+  border-color: $color-rose;
+  &:hover {
+    background-color: darken($color: $color-secondary, $amount: 10);
+  }
+  border-radius: $radius;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: $font-text;
+  // &:hover {
+  //   background-color: lighten($color: $color-rose, $amount: 10);
+  // }
+  .icon {
+    margin-left: 5px;
+  }
+}

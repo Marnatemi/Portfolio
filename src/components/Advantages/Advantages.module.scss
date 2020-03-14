@@ -1,0 +1,58 @@
+@import '../../atoms/theme/settings.scss';
+@import '../../atoms/theme/index.scss';
+
+
+.content {
+  //margin-left: 17%;
+  margin: auto;
+  padding-left: 40px;
+  max-width: 650px;
+  border-left: solid $color-rose;
+  margin-bottom: 80px;
+  .advantages_wrapper {
+    @include flex(center, space-between);
+    flex-wrap: wrap;
+    width: 100%;
+    .advantage {
+      //width: 200px;
+      width:33.33%;
+      text-align: center;
+      margin-top: 20px;
+      &.hidden {display: none;}
+      .icon {
+        color: $color-secondary;
+        font-size: 50px;
+        padding: 5px;
+      }
+      .title {
+        font-weight: 400;
+        color: $color-primary;
+        //color: $color-light;
+        //text-shadow: $color-primary 0 0 3px;
+      }
+      .text {
+        color: $color-light;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .content .advantages_wrapper .advantage {
+    width: 50%;
+    &.hidden {display: block;}
+  }
+}
+@media (max-width: 576px) {
+  .content { 
+    padding-left: 0;
+    .advantages_wrapper {
+      justify-content: center;
+      .advantage {
+        width: 200px;
+      }
+    }
+  }
+}
+

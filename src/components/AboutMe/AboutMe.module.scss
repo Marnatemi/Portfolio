@@ -1,0 +1,10 @@
+@import '../../atoms/theme/settings.scss';
+@import '../../atoms/theme/index.scss';
+
+.content {
+  margin: auto;
+  padding-left: 40px;
+  max-width: 650px;
+  border-left: solid $color-rose;
+  margin-bottom: 80px;
+}

@@ -4,23 +4,8 @@ import React from 'react';
 import styles from './header.module.scss';
 
 const Header = () => {
-  function handleClick(e) {
-    e.preventDefault();
-    console.log('CLICKED!');
-  }
   return (
     <header>
-      <div className={styles.triangle} />
-      <nav className={styles.navbar}>
-        <div className={styles.nav_wrapper}>
-          <p>Choose your language :</p>
-          <div className={styles.buttons}>
-            <button type="button" className={styles.btn}>PL</button>
-            <button type="button" onClick={handleClick} className={styles.btn}>EN</button>
-            <button type="button" className={styles.btn}>FR</button>
-          </div>
-        </div>
-      </nav>
       <div className={styles.container}>
         <div className={styles.header_wrapper}>
           <h1>Hi, I&apos;m Marlena</h1>

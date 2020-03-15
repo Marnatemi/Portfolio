@@ -1,21 +1,17 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
 
 import '../atoms/theme/index.scss';
 
-import Header from '../components/Header/Header';
+import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
-import AboutMe from '../components/AboutMe/AboutMe';
-import Portfolio from '../components/Portfolio/Portfolio';
-import Advantages from '../components/Advantages/Advantages';
-import Contact from '../components/Contact/Contact';
+// import AboutMe from '../components/AboutMe/AboutMe';
+// import Portfolio from '../components/Portfolio/Portfolio';
+// import Advantages from '../components/Advantages/Advantages';
+// import Contact from '../components/Contact/Contact';
 
-const Layout = () => {
-
-
-
+const Layout = ({ children }) => {
   return (
     <div>
       <Helmet
@@ -25,19 +21,19 @@ const Layout = () => {
           { name: 'keywords', content: 'portfolio, cv, junior' },
         ]}
       >
-        <html lang="pl" />
+        <html lang="en" />
       </Helmet>
-      <Header />
-      <AboutMe />
-      <Portfolio />
-      <Advantages />
-      <Contact />
+      <Navbar />
+      <main>
+        {children}
+      </main>
+      <Footer />
     </div>
   );
 };
 
-// Layout.propTypes = {
-//   children: PropTypes.node.isRequired,
-// };
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default Layout;

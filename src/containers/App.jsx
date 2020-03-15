@@ -1,16 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Provider } from 'react-redux';
-import store from '../store/store';
-import Footer from '../components/Footer/Footer';
+import { connect } from 'react-redux';
+
+import Header from '../components/Header/Header';
+import AboutMe from '../components/AboutMe/AboutMe';
+import Portfolio from '../components/Portfolio/Portfolio';
+import Advantages from '../components/Advantages/Advantages';
+import Contact from '../components/Contact/Contact';
 import Layout from './Layout';
 
 const App = () => (
-  <Provider>
-    <Layout />
-  </Provider>
-  <Footer />
+  <div>
+    <Layout>
+      <Header />
+      <AboutMe />
+      <Portfolio />
+      <Advantages />
+      <Contact />
+    </Layout>
+  </div>
 );
 
 

@@ -48,8 +48,9 @@ class Contact extends React.Component {
   }
 
   render() {
+    const {title, name, email, message,placeholder, button, modal} = this.props;
     return (
-      <Section title="Contact" variant="right_light">
+      <Section title={title} variant="right_light">
         <div className={styles.content}>
           <form
             id="form"
@@ -58,24 +59,24 @@ class Contact extends React.Component {
             method="POST"
           >
             <div className={styles.form_group}>
-              <label htmlFor="name">Your Name</label>
+              <label htmlFor="name">{name}</label>
               <input className={styles.form_control} type="text" name="name" />
             </div>
             <div className={styles.form_group}>
-              <label htmlFor="email">Your Email</label>
+              <label htmlFor="email">{email}</label>
               <input className={styles.form_control} type="email" name="email" required aria-describedby="emailHelp" />
             </div>
             <div className={styles.form_group}>
-              <label htmlFor="message">Message</label>
-              <textarea className={styles.form_control} required rows="5" name="message" placeholder="If you would like me to join your team just send a message! Also I would appreciate all of feedback so don't hesitate to write :)" />
+              <label htmlFor="message">{message}</label>
+              <textarea className={styles.form_control} required rows="5" name="message" placeholder={placeholder} />
             </div>
             <button className={styles.btn} type="submit">
-              Send!
+              {button}
               <FontAwesomeIcon icon={faPaperPlane} className={styles.icon} />
             </button>
           </form>
         </div>
-        <Modal show={this.state.show} handleClose={this.closeModal} />
+        <Modal show={this.state.show} handleClose={this.closeModal} status={modal.status} text={modal.text} />
       </Section>
     );
   }

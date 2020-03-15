@@ -5,7 +5,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Modal.module.scss';
 
-const Modal = ({ handleClose, show }) => {
+const Modal = ({ handleClose, show, status, text }) => {
   // ModalClassName = show ? `${styles.show}` : `${styles.hide}`;
   if (show === false) {
     return null;
@@ -13,8 +13,8 @@ const Modal = ({ handleClose, show }) => {
   return (
     <div className={styles.modal}>
       <section className={styles.card}>
-        <h3>Message sent</h3>
-        <p>Thank You very much!</p>
+        <h3>{status}</h3>
+        <p>{text}</p>
         <button type="button" onClick={handleClose} className={styles.btn}>x</button>
       </section>
     </div>

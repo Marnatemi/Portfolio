@@ -1,6 +1,6 @@
-{ 
-  "english": 
-  { "language": "en",
+[
+  {
+    "id": "en",
     "header": {
       "title": "Hi, I'm Marlena",
       "subtitle": "An realistic optimist, intrested on ...almost everything?"
@@ -15,28 +15,28 @@
       "subtitle": "& technologies",
       "portfolio": [
         {
-        "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
-        "title": "JS Game",
-        "subtitle": "HTML SCSS JS",
-        "link": "https://simple-js-game.herokuapp.com/"
+          "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
+          "title": "JS Game",
+          "subtitle": "HTML SCSS JS",
+          "link": "https://simple-js-game.herokuapp.com/"
         },
         {
-        "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
-        "title": "Pizzeria",
-        "subtitle": "Vanilla JS",
-        "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
+          "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
+          "title": "Pizzeria",
+          "subtitle": "Vanilla JS",
+          "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
         },
         {
-        "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
-        "title": "To do List",
-        "subtitle": "React",
-        "link": "https://the-best-to-do-list.herokuapp.com/"
+          "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
+          "title": "To do List",
+          "subtitle": "React",
+          "link": "https://the-best-to-do-list.herokuapp.com/"
         },
         {
-        "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
-        "title": "Utopia Shop",
-        "subtitle": "React",
-        "link": "https://the-best-to-do-list.herokuapp.com/"
+          "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
+          "title": "Utopia Shop",
+          "subtitle": "React",
+          "link": "https://the-best-to-do-list.herokuapp.com/"
         }
       ]
     },
@@ -81,14 +81,12 @@
         "status": "Message sent",
         "text": "Thank You veru much!"
       }
-
     }
   },
-  "polish":
   {
-    "language": "pl",
+    "id": "pl",
     "header": {
-      "title": "Cześć! Jestem Marlena",
+      "title": "Hej! Jestem Marlena",
       "subtitle": "Optymistyczna realistka, interesująca się...chyba wszystkim?"
     },
     "aboutMe": {
@@ -101,28 +99,28 @@
       "subtitle": "& technologie",
       "portfolio": [
         {
-        "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
-        "title": "Gra JS",
-        "subtitle": "HTML SCSS JS",
-        "link": "https://simple-js-game.herokuapp.com/"
+          "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
+          "title": "Gra JS",
+          "subtitle": "HTML SCSS JS",
+          "link": "https://simple-js-game.herokuapp.com/"
         },
         {
-        "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
-        "title": "Pizzeria",
-        "subtitle": "Vanilla JS",
-        "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
+          "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
+          "title": "Pizzeria",
+          "subtitle": "Vanilla JS",
+          "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
         },
         {
-        "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
-        "title": "To do List",
-        "subtitle": "React",
-        "link": "https://the-best-to-do-list.herokuapp.com/"
+          "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
+          "title": "To do List",
+          "subtitle": "React",
+          "link": "https://the-best-to-do-list.herokuapp.com/"
         },
         {
-        "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
-        "title": "Utopia Shop",
-        "subtitle": "React",
-        "link": "https://the-best-to-do-list.herokuapp.com/"
+          "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
+          "title": "Utopia Shop",
+          "subtitle": "React",
+          "link": "https://the-best-to-do-list.herokuapp.com/"
         }
       ]
     },
@@ -169,9 +167,8 @@
       }
     }
   },
-  "french": 
   {
-    "language": "fr",
+    "id": "fr",
     "header": {
       "title": "Salut, J'suis Marlena",
       "subtitle": "Une realistique optimiste, interesse par ...presque tout?"
@@ -186,28 +183,28 @@
       "subtitle": "& technologies",
       "portfolio": [
         {
-        "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
-        "title": "JS Jeux",
-        "subtitle": "HTML SCSS JS",
-        "link": "https://simple-js-game.herokuapp.com/"
+          "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
+          "title": "JS Jeux",
+          "subtitle": "HTML SCSS JS",
+          "link": "https://simple-js-game.herokuapp.com/"
         },
         {
-        "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
-        "title": "Pizzeria",
-        "subtitle": "Vanilla JS",
-        "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
+          "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
+          "title": "Pizzeria",
+          "subtitle": "Vanilla JS",
+          "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
         },
         {
-        "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
-        "title": "To do List",
-        "subtitle": "React",
-        "link": "https://the-best-to-do-list.herokuapp.com/"
+          "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
+          "title": "To do List",
+          "subtitle": "React",
+          "link": "https://the-best-to-do-list.herokuapp.com/"
         },
         {
-        "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
-        "title": "Utopia Shop",
-        "subtitle": "React",
-        "link": "https://the-best-to-do-list.herokuapp.com/"
+          "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
+          "title": "Utopia Shop",
+          "subtitle": "React",
+          "link": "https://the-best-to-do-list.herokuapp.com/"
         }
       ]
     },
@@ -254,4 +251,4 @@
       }
     }
   }
-}
+]

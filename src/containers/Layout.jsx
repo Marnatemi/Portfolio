@@ -11,9 +11,10 @@ import Footer from '../components/Footer/Footer';
 // import Advantages from '../components/Advantages/Advantages';
 // import Contact from '../components/Contact/Contact';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, lang }) => {
   return (
     <div>
+      {console.log(lang)}
       <Helmet
         title="Marlena Czerwińska"
         meta={[
@@ -21,7 +22,7 @@ const Layout = ({ children }) => {
           { name: 'keywords', content: 'portfolio, cv, junior' },
         ]}
       >
-        <html lang="en" />
+        <html lang={lang} />
       </Helmet>
       <Navbar />
       <main>

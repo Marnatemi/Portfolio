@@ -31,10 +31,10 @@ const demoContent = [
   },
 ];
 
-const Portfolio = () => (
-  <Section title="My Portfolio" subtitle="& technologies" variant="right_light">
+const Portfolio = ({title, subtitle, portfolio}) => (
+  <Section title={title} subtitle={subtitle} variant="right_light">
     <div className={styles.content}>
-      {demoContent.map(item => (
+      {portfolio.map(item => (
         <div key={item.title} className={styles.item}>
           <a href={item.link} target="_blank">
             <img className={styles.image} src={item.img} alt={item.title} />

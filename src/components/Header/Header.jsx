@@ -3,13 +3,13 @@ import React from 'react';
 
 import styles from './header.module.scss';
 
-const Header = () => {
+const Header = ({ title, subtitle }) => {
   return (
     <header>
       <div className={styles.container}>
         <div className={styles.header_wrapper}>
-          <h1>Hi, I&apos;m Marlena</h1>
-          <h5>An realistic optimist, intrested on ...almost everything?</h5>
+          <h1>{title}</h1>
+          <h5>{subtitle}</h5>
         </div>
       </div>
     </header>

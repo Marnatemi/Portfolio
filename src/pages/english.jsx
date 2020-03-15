@@ -4,7 +4,7 @@ import App from '../containers/App';
 import Layout from '../containers/Layout';
 
 const English = () => (
-  <App />
+  <h1>ENGLISH</h1>
 );
 
 export default English;

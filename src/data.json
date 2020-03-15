@@ -1,0 +1,257 @@
+{ 
+  "english": 
+  { "language": "en",
+    "header": {
+      "title": "Hi, I'm Marlena",
+      "subtitle": "An realistic optimist, intrested on ...almost everything?"
+    },
+    "aboutMe": {
+      "title": "About Me",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
+      "text2": "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."
+    },
+    "portfolio": {
+      "title": "My Portfolio",
+      "subtitle": "& technologies",
+      "portfolio": [
+        {
+        "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
+        "title": "JS Game",
+        "subtitle": "HTML SCSS JS",
+        "link": "https://simple-js-game.herokuapp.com/"
+        },
+        {
+        "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
+        "title": "Pizzeria",
+        "subtitle": "Vanilla JS",
+        "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
+        },
+        {
+        "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
+        "title": "To do List",
+        "subtitle": "React",
+        "link": "https://the-best-to-do-list.herokuapp.com/"
+        },
+        {
+        "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
+        "title": "Utopia Shop",
+        "subtitle": "React",
+        "link": "https://the-best-to-do-list.herokuapp.com/"
+        }
+      ]
+    },
+    "advantages": {
+      "title": "Why",
+      "subtitle": "You should hire me",
+      "advantage": [
+        {
+          "icon": "faBrain",
+          "title": "Fast learning",
+          "text": "Simply, I just like to learn new things",
+          "class": "active"
+        },
+        {
+          "icon": "faBolt",
+          "title": "Entusiasm",
+          "text": "I hate boring at work, I always give 100%",
+          "class": "active"
+        },
+        {
+          "icon": "faFootballBall",
+          "title": "Team player",
+          "text": "I feel responsable for work of my team",
+          "class": "active"
+        },
+        {
+          "icon": "faPuzzlePiece",
+          "title": "Problem resolving",
+          "text": "Finding resolves for problems is like a chellange, give me much satisfaction",
+          "class": "hidden"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Message",
+      "placeholder": "If you would like me to join your team just send a message! Also I would appreciate all of feedback so don't hesitate to write :)",
+      "button": "Send!",
+      "modal": {
+        "status": "Message sent",
+        "text": "Thank You veru much!"
+      }
+
+    }
+  },
+  "polish":
+  {
+    "language": "pl",
+    "header": {
+      "title": "Cześć! Jestem Marlena",
+      "subtitle": "Optymistyczna realistka, interesująca się...chyba wszystkim?"
+    },
+    "aboutMe": {
+      "title": "O mnie",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
+      "text2": "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."
+    },
+    "portfolio": {
+      "title": "Moje Portfolio",
+      "subtitle": "& technologie",
+      "portfolio": [
+        {
+        "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
+        "title": "Gra JS",
+        "subtitle": "HTML SCSS JS",
+        "link": "https://simple-js-game.herokuapp.com/"
+        },
+        {
+        "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
+        "title": "Pizzeria",
+        "subtitle": "Vanilla JS",
+        "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
+        },
+        {
+        "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
+        "title": "To do List",
+        "subtitle": "React",
+        "link": "https://the-best-to-do-list.herokuapp.com/"
+        },
+        {
+        "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
+        "title": "Utopia Shop",
+        "subtitle": "React",
+        "link": "https://the-best-to-do-list.herokuapp.com/"
+        }
+      ]
+    },
+    "advantages": {
+      "title": "Dla czego",
+      "subtitle": "powinieneś mnie zatrudnić?",
+      "advantage": [
+        {
+          "icon": "faBrain",
+          "title": "Szybko się uczę",
+          "text": "Poprostu, najzwyczajniej lubię uczyć się nowych rzeczy",
+          "class": "active"
+        },
+        {
+          "icon": "faBolt",
+          "title": "Entuzjazm",
+          "text": "Nie lubię nudy w pracy, zawsze daję z siebie 100%",
+          "class": "active"
+        },
+        {
+          "icon": "faFootballBall",
+          "title": "Gracz zespołowy",
+          "text": "Czuję się odpowiedzialna za pracę całego mojego zespołu",
+          "class": "active"
+        },
+        {
+          "icon": "faPuzzlePiece",
+          "title": "Rozwiązywanie problemów",
+          "text": "Znjadywanie rozwiązań jest jak wyzwanie, sukces daje mnóstwo satysfakcji",
+          "class": "hidden"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "name": "Twoje Imię",
+      "email": "Twój Email",
+      "message": "Wiadomość",
+      "placeholder": "Jeśli jesteś zainteresowany współpracą czekam na wiadomość! Dodatkowo będę wdzięczna za każdy feedbck więc nie wahaj się do mnie napisać :)",
+      "button": "Wyślij!",
+      "modal": {
+        "status": "Wiadomość wysłana",
+        "text": "Dziękuję bardzo!"
+      }
+    }
+  },
+  "french": 
+  {
+    "language": "fr",
+    "header": {
+      "title": "Salut, J'suis Marlena",
+      "subtitle": "Une realistique optimiste, interesse par ...presque tout?"
+    },
+    "aboutMe": {
+      "title": "Moi",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
+      "text2": "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."
+    },
+    "portfolio": {
+      "title": "Mon Portfolio",
+      "subtitle": "& technologies",
+      "portfolio": [
+        {
+        "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
+        "title": "JS Jeux",
+        "subtitle": "HTML SCSS JS",
+        "link": "https://simple-js-game.herokuapp.com/"
+        },
+        {
+        "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
+        "title": "Pizzeria",
+        "subtitle": "Vanilla JS",
+        "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
+        },
+        {
+        "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
+        "title": "To do List",
+        "subtitle": "React",
+        "link": "https://the-best-to-do-list.herokuapp.com/"
+        },
+        {
+        "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
+        "title": "Utopia Shop",
+        "subtitle": "React",
+        "link": "https://the-best-to-do-list.herokuapp.com/"
+        }
+      ]
+    },
+    "advantages": {
+      "title": "Pourquoi",
+      "subtitle": "Vous devriez m'engager",
+      "advantage": [
+        {
+          "icon": "faBrain",
+          "title": "Aprendisage rapide",
+          "text": "Simplement, J'ime bien aprrendre des nouvelles",
+          "class": "active"
+        },
+        {
+          "icon": "faBolt",
+          "title": "Entusiasm",
+          "text": "Je deteste m'ennuyee ou travail, Je donne toujour 100%",
+          "class": "active"
+        },
+        {
+          "icon": "faFootballBall",
+          "title": "Joueur d'équipe",
+          "text": "Je me sens responsable pour le travail de mon equipe",
+          "class": "active"
+        },
+        {
+          "icon": "faPuzzlePiece",
+          "title": "Résolution des problèmes",
+          "text": "Trouver des solutions aux problèmes est comme un chellange, donne-moi beaucoup de satisfaction",
+          "class": "hidden"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "name": "Votre Nom",
+      "email": "Votre Email",
+      "message": "Message",
+      "placeholder": "Si vous voudriez m'engager il suffit de m'evoyer une message! Sinon J'apprécierais tout le feedback alors n'hésitez pas à m'écrire",
+      "button": "Envoyer!",
+      "modal": {
+        "status": "Message envoye",
+        "text": "Merci beaucoup!"
+      }
+    }
+  }
+}

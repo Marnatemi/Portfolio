@@ -4,7 +4,7 @@ import App from '../containers/App';
 import Layout from '../containers/Layout';
 
 const Index = () => (
-  <Layout />
+  <App />
 );
 
 export default Index;

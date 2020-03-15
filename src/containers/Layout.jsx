@@ -12,38 +12,29 @@ import Portfolio from '../components/Portfolio/Portfolio';
 import Advantages from '../components/Advantages/Advantages';
 import Contact from '../components/Contact/Contact';
 
-const Layout = () => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        >
-          <html lang="en" />
-        </Helmet>
-        <Header />
-        <AboutMe />
-        <Portfolio />
-        <Advantages />
-        <Contact />
-        <Footer />
-      </>
-    )}
-  />
-);
+const Layout = () => {
+
+
+
+  return (
+    <div>
+      <Helmet
+        title="Marlena Czerwińska"
+        meta={[
+          { name: 'description', content: 'Portfolio' },
+          { name: 'keywords', content: 'portfolio, cv, junior' },
+        ]}
+      >
+        <html lang="pl" />
+      </Helmet>
+      <Header />
+      <AboutMe />
+      <Portfolio />
+      <Advantages />
+      <Contact />
+    </div>
+  );
+};
 
 // Layout.propTypes = {
 //   children: PropTypes.node.isRequired,

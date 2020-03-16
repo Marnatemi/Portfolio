@@ -7,8 +7,8 @@
     },
     "aboutMe": {
       "title": "About Me",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
-      "text2": "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."
+      "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
+      "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."]
     },
     "portfolio": {
       "title": "My Portfolio",
@@ -91,8 +91,8 @@
     },
     "aboutMe": {
       "title": "O mnie",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
-      "text2": "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."
+      "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
+      "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."]
     },
     "portfolio": {
       "title": "Moje Portfolio",
@@ -175,8 +175,8 @@
     },
     "aboutMe": {
       "title": "Moi",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
-      "text2": "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."
+      "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
+      "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."]
     },
     "portfolio": {
       "title": "Mon Portfolio",

@@ -1,5 +1,5 @@
-/* eslint-disable prefer-destructuring */
-/* eslint-disable react/destructuring-assignment */
+/* eslint-disable object-curly-newline */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -24,16 +24,16 @@ class App extends React.Component {
   }
 
   render() {
-    const language = this.state.language;
+    const { language: { id, header, aboutMe, portfolio, advantages, contact } } = this.state;
     return (
       <div>
-        {console.log(language)}
-        <Layout lang={language.id}>
-          <Header title={language.header.title} subtitle={language.header.subtitle} />
-          <AboutMe title={language.aboutMe.title} text={language.aboutMe.text} text2={language.aboutMe.text2} />
-          <Portfolio title={language.portfolio.title} subtitle={language.portfolio.subtitle} portfolio={language.portfolio.portfolio} />
-          <Advantages title={language.advantages.title} subtitle={language.advantages.subtitle} advantage={language.advantages.advantage} />
-          <Contact title={language.contact.title} name={language.contact.name} email={language.contact.email} message={language.contact.message} placeholder={language.contact.placeholder} button={language.contact.button} modal={language.contact.modal} />
+        {console.log(id, header, aboutMe, portfolio, advantages, contact)}
+        <Layout lang={id}>
+          <Header title={header.title} subtitle={header.subtitle} />
+          <AboutMe title={aboutMe.title} text={aboutMe.text} text2={aboutMe.text2} />
+          <Portfolio title={portfolio.title} subtitle={portfolio.subtitle} portfolio={portfolio.portfolio} />
+          <Advantages title={advantages.title} subtitle={advantages.subtitle} advantage={advantages.advantage} />
+          <Contact title={contact.title} name={contact.name} email={contact.email} message={contact.message} placeholder={contact.placeholder} button={contact.button} modal={contact.modal} />
         </Layout>
       </div>
     );

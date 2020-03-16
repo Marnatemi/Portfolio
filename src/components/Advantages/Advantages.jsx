@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 /* eslint-disable object-curly-newline */
 /* eslint-disable prefer-template */
 
@@ -21,7 +22,6 @@ const Advantages = ({ title, subtitle, advantage }) => (
   <Section title={title} subtitle={subtitle} variant="left_dark">
     <div className={styles.content}>
       <div className={styles.advantages_wrapper}>
-        
         {advantage.map(item => (
           <div key={item.title} className={styles.advantage + item.class.split(' ').map(name => ' ' + (styles[name] || name)).join('')}>
             <FontAwesomeIcon icon={icons(item.icon)} className={styles.icon} />

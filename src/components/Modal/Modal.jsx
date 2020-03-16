@@ -5,6 +5,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Modal.module.scss';
 
+// eslint-disable-next-line object-curly-newline
 const Modal = ({ handleClose, show, status, text }) => {
   // ModalClassName = show ? `${styles.show}` : `${styles.hide}`;
   if (show === false) {
@@ -24,6 +25,8 @@ const Modal = ({ handleClose, show, status, text }) => {
 Modal.propTypes = {
   show: PropTypes.bool,
   handleClose: PropTypes.func,
+  status: PropTypes.string,
+  text: PropTypes.string,
 };
 
 Modal.defultProps = {

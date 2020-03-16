@@ -1,5 +1,6 @@
+/* eslint-disable react/require-default-props */
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 import styles from './header.module.scss';
 
@@ -16,9 +17,10 @@ const Header = ({ title, subtitle }) => {
   );
 };
 
-// Header.propTypes = {
-
-// };
+Header.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+};
 // Header.defaultProps = {
 
 // };

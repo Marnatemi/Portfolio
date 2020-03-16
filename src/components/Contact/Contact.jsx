@@ -1,9 +1,11 @@
+/* eslint-disable react/require-default-props */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable class-methods-use-this */
 /* eslint-disable no-restricted-globals */
 /* eslint-disable jsx-a11y/label-has-for */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
@@ -48,7 +50,8 @@ class Contact extends React.Component {
   }
 
   render() {
-    const {title, name, email, message,placeholder, button, modal} = this.props;
+    // eslint-disable-next-line object-curly-newline
+    const { title, name, email, message, placeholder, button, modal: { status, text } } = this.props;
     return (
       <Section title={title} variant="right_light">
         <div className={styles.content}>
@@ -76,10 +79,20 @@ class Contact extends React.Component {
             </button>
           </form>
         </div>
-        <Modal show={this.state.show} handleClose={this.closeModal} status={modal.status} text={modal.text} />
+        <Modal show={this.state.show} handleClose={this.closeModal} status={status} text={text} />
       </Section>
     );
   }
 }
+
+Contact.propTypes = {
+  title: PropTypes.string,
+  name: PropTypes.array,
+  email: PropTypes.array,
+  message: PropTypes.array,
+  placeholder: PropTypes.array,
+  button: PropTypes.string,
+  modal: PropTypes.object,
+};
 
 export default Contact;

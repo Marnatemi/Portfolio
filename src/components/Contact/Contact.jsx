@@ -87,10 +87,10 @@ class Contact extends React.Component {
 
 Contact.propTypes = {
   title: PropTypes.string,
-  name: PropTypes.array,
-  email: PropTypes.array,
-  message: PropTypes.array,
-  placeholder: PropTypes.array,
+  name: PropTypes.string,
+  email: PropTypes.string,
+  message: PropTypes.string,
+  placeholder: PropTypes.string,
   button: PropTypes.string,
   modal: PropTypes.object,
 };

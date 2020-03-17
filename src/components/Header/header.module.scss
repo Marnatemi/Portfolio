@@ -44,7 +44,9 @@
             @include flex(center, space-between);
             width: 140px;
             margin-top: 5px;
-            
+            // &:focus{
+            //     outline: none;
+            // }
         }
     }
 }
@@ -59,7 +61,8 @@
     border-radius: $radius;
     cursor: pointer;
     padding: 5px 12px;
-    &:hover {
+    outline: none;
+    &:hover, &:focus {
         background: lighten($color: $color-dark, $amount: 20);
     }
 }

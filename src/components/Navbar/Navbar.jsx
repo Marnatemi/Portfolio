@@ -17,9 +17,9 @@ const Navbar = ({ handler }) => {
         <div className={styles.nav_wrapper}>
           <p>Choose your language :</p>
           <div className={styles.buttons}>
-            <button type="button" onClick={handleClick} className={styles.btn}>EN</button>
-            <button type="button" onClick={handleClick} className={styles.btn}>PL</button>
-            <button type="button" onClick={handleClick} className={styles.btn}>FR</button>
+            <button type="button" onClick={() => handler(0)} className={styles.btn}>EN</button>
+            <button type="button" onClick={() => handler(1)} className={styles.btn}>PL</button>
+            <button type="button" onClick={() => handler(2)} className={styles.btn}>FR</button>
           </div>
         </div>
       </nav>

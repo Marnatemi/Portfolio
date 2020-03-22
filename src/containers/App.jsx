@@ -34,7 +34,7 @@ class App extends React.Component {
       <div>
         {/* {console.log(id, header, aboutMe, portfolio, advantages, contact)} */}
         <Layout lang={id} handler={this.handler}>
-          <Header title={header.title} subtitle={header.subtitle} />
+          <Header title={header.title} titleName={header.titleName} subtitle={header.subtitle} />
           <AboutMe title={aboutMe.title} text={aboutMe.text} text2={aboutMe.text2} />
           <Portfolio title={portfolio.title} subtitle={portfolio.subtitle} portfolio={portfolio.portfolio} />
           <Advantages title={advantages.title} subtitle={advantages.subtitle} advantage={advantages.advantage} />

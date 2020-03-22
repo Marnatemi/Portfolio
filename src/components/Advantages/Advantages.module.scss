@@ -5,7 +5,7 @@
 .container {
   @include container-left-base;
   .advantages{
-    @include flex(center, space-between);
+    @include flex(flex-start, space-between);
     flex-wrap: wrap;
     width: 100%;
     .advantage {
@@ -21,6 +21,7 @@
       .title {
         font-weight: 400;
         color: $color-primary;
+        padding: 0 10px;
       }
       .text {
         color: $color-light;
@@ -31,7 +32,7 @@
 }
 
 @media (max-width: 769px) {
-  .container .advantages.advantage {
+  .container .advantages .advantage {
     width: 50%;
     &.hidden {display: block;}
   }

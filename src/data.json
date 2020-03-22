@@ -3,12 +3,15 @@
     "id": "en",
     "header": {
       "title": "Hi, I'm Marlena",
-      "subtitle": "An realistic optimist, intrested on ...almost everything?"
+      "subtitle": "An realist optimist, tirelessly aiming the goal"
     },
     "aboutMe": {
       "title": "About Me",
-      "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
-      "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."]
+      "text": [
+      "I shyly define myself as a person of many interests. I like to learn new things, search and explore topics that interest me. I am especially interested in history - books, films, articles most about the period from the Middle Ages to the First World War, also French culture and music",  
+      "I started learning programming in May 2019. Looking for inspiration for my career,  I found out about web design and it was love at first sight! :) What I like the most in programming is the creativity that we can show when working on projects, functionalities and problems.",
+      "Until now, I've worked among others as a nanny in France and a telephone consultant in a large insurance company. In October 2019. I was missing for new challenges so I moved to a smaller company with another insurance offer. Now I'm trying to change my profession."
+      ]
     },
     "portfolio": {
       "title": "My Portfolio",
@@ -75,7 +78,7 @@
       "name": "Your Name",
       "email": "Your Email",
       "message": "Message",
-      "placeholder": "If you would like me to join your team just send a message! Also I would appreciate all of feedback so don't hesitate to write :)",
+      "placeholder": "If you are interested in cooperation, just send me a message! Also I would appreciate any of feedback so don't hesitate to write :)",
       "button": "Send!",
       "modal": {
         "status": "Message sent",
@@ -86,13 +89,17 @@
   {
     "id": "pl",
     "header": {
-      "title": "Hej! Jestem Marlena",
-      "subtitle": "Optymistyczna realistka, interesująca się...chyba wszystkim?"
+      "title": "Hej!", 
+      "titleName": "Jestem Marlena",
+      "subtitle": "Optymistyczna realistka, niestrudzenie dążąca do celu."
     },
     "aboutMe": {
       "title": "O mnie",
-      "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
-      "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."]
+      "text": [
+        "Z nieśmiałością określam siebie jako osobę o wielu zainteresowaniach. Lubię wciąż dowiadywać się nowych rzeczy, szukać i drążyć tematy które mnie zaciekawią. Interesuję się szczególnie historią- książki, filmy, artykuły najbardziej te opisujące okres od średniowiecza do I WŚ oraz kulturą i muzyką Francuską ",
+        "Naukę programowania rozpoczęłam w maju 2019r. Poszukując inspiracji na ścieżkę zawodową trafiłam na temat projektowania stron internetowych i to była miłość od pierwszego wejrzenia! :) W programowaniu najbardziej podoba mi się kreatywność jaką możemy wykazać się podczas pracy nad projektami, funkcjonalnościami i napotykanymi problemami. ",
+        "Do tej pory pracowałam m.in. jako niania we Francji i konsultant telefoniczny w dużej firmie ubezpieczeniowej. W październiku 2019r. z braku nowych wyzwań przeniosłam się do mniejszej firmy z inną ofertą ubezpieczeniową. Obecnie dążę do przebranżowienia się."
+        ]
     },
     "portfolio": {
       "title": "Moje Portfolio",
@@ -126,12 +133,12 @@
     },
     "advantages": {
       "title": "Dla czego",
-      "subtitle": "powinieneś mnie zatrudnić?",
+      "subtitle": "warto mnie zatrudnić?",
       "advantage": [
         {
           "icon": "faBrain",
-          "title": "Szybko się uczę",
-          "text": "Poprostu, najzwyczajniej lubię uczyć się nowych rzeczy",
+          "title": "Głód wiedzy",
+          "text": "Najzwyczajniej, poprostu lubię uczyć się nowych rzeczy",
           "class": "active"
         },
         {
@@ -159,7 +166,7 @@
       "name": "Twoje Imię",
       "email": "Twój Email",
       "message": "Wiadomość",
-      "placeholder": "Jeśli jesteś zainteresowany współpracą czekam na wiadomość! Dodatkowo będę wdzięczna za każdy feedbck więc nie wahaj się do mnie napisać :)",
+      "placeholder": "Jeśli jesteś zainteresowany współpracą czekam na wiadomość! Dodatkowo będę wdzięczna za każdy feedback więc nie wahaj się do mnie napisać :)",
       "button": "Wyślij!",
       "modal": {
         "status": "Wiadomość wysłana",
@@ -170,13 +177,17 @@
   {
     "id": "fr",
     "header": {
-      "title": "Salut, J'suis Marlena",
-      "subtitle": "Une realistique optimiste, interesse par ...presque tout?"
+      "title": "Salut,", 
+      "titleName": "J'suis Marlena",
+      "subtitle": "Une optimiste réaliste, sans relâche poursuivant le but."
     },
     "aboutMe": {
       "title": "Moi",
-      "text": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis fringilla nibh vitae bibendum. Cras scelerisque mi purus, tincidunt condimentum purus finibus eget. Aliquam ornare vehicula turpis, tempus condimentum magna volutpat ac. Nullam a finibus est. Donec pellentesque odio lacus, sit amet laoreet turpis feugiat id. Pellentesque leo metus, porta et imperdiet venenatis, elementum et odio. Aliquam odio ex, vulputate eget ante a, fermentum vehicula tellus.",
-      "Donec tortor nunc, maximus at eros eu, laoreet feugiat urna. Morbi facilisis lacinia arcu, at varius neque accumsan viverra. Cras vitae ipsum posuere, rutrum diam in, fringilla nibh."]
+      "text": [
+      "Je me décris timidement comme une personne ayant de nombreux intérêts. J'aime découvrir de nouvelles choses, chercher et explorer les sujets qui m'intéressent. Je m'intéresse surtout à l'histoire - livres, films, articles qui décrivent la période du Moyen Âge à la Première Guerre mondiale et la culture et la musique françaises.",
+      "J'ai commencé à apprendre la programmation en mai 2019. En recherchant d'inspiration sur mon parcours professionnel, je suis tombé sur le thème du web design et ce fut le coup de foudre! :) Ce que j'aime le plus en programmation, c'est la créativité que l'on peut montrer en travaillant sur des projets, des fonctionnalités et des problèmes.",
+      "Jusqu'à présent, j'ai travaillé entre autres comme fille au pair en France et comme consultant téléphonique dans une grande compagnie d'assurance. En octobre 2019. à cause du manque de nouveaux défis je suis passé à une plus petite entreprise avec une autre offre d'assurance. J'essaie actuellement de changer de profession."
+      ]
     },
     "portfolio": {
       "title": "Mon Portfolio",
@@ -214,20 +225,20 @@
       "advantage": [
         {
           "icon": "faBrain",
-          "title": "Aprendisage rapide",
-          "text": "Simplement, J'ime bien aprrendre des nouvelles",
+          "title": "Soif de savoir",
+          "text": "Simplement, J'aime bien aprrendre des nouvelles",
           "class": "active"
         },
         {
           "icon": "faBolt",
-          "title": "Entusiasm",
-          "text": "Je deteste m'ennuyee ou travail, Je donne toujour 100%",
+          "title": "Enthousiasme",
+          "text": "Je déteste m'ennuyer au travail, Je donne toujour 100%",
           "class": "active"
         },
         {
           "icon": "faFootballBall",
           "title": "Joueur d'équipe",
-          "text": "Je me sens responsable pour le travail de mon equipe",
+          "text": "Je me sens responsable pour le travail de mon équipe",
           "class": "active"
         },
         {
@@ -243,10 +254,10 @@
       "name": "Votre Nom",
       "email": "Votre Email",
       "message": "Message",
-      "placeholder": "Si vous voudriez m'engager il suffit de m'evoyer une message! Sinon J'apprécierais tout le feedback alors n'hésitez pas à m'écrire",
+      "placeholder": "Si vous êtes intéressé par une coopération, j'attends un message! de m'evoyer une message! Sinon j'apprécierais tout de feedback, alors n'hésitez pas à m'écrire :)",
       "button": "Envoyer!",
       "modal": {
-        "status": "Message envoye",
+        "status": "Message envoyé",
         "text": "Merci beaucoup!"
       }
     }

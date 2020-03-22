@@ -4,12 +4,13 @@ import PropTypes from 'prop-types';
 
 import styles from './header.module.scss';
 
-const Header = ({ title, subtitle }) => {
+const Header = ({ title, titleName, subtitle }) => {
   return (
     <header>
       <div className={styles.container}>
         <div className={styles.header_wrapper}>
           <h1>{title}</h1>
+          <h1>{titleName}</h1>
           <h5>{subtitle}</h5>
         </div>
       </div>
@@ -19,6 +20,7 @@ const Header = ({ title, subtitle }) => {
 
 Header.propTypes = {
   title: PropTypes.string,
+  titleName: PropTypes.string,
   subtitle: PropTypes.string,
 };
 // Header.defaultProps = {

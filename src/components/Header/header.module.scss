@@ -10,13 +10,16 @@
 
 .header_wrapper{   
     height: auto;
+    text-align: right;
+    padding-right: 15px;
+    text-align: center;
     h1 {
         margin: 0 10px;
         @include title;
         color: $color-dark;
     }
     h5 {
-        margin: 0;
+        margin: 0 10px;
         font-family: $font-subtitle;
         color: $color-rose;
         font-weight: 600;
@@ -30,18 +33,23 @@
     color: $color-rose;
     font-size: $base-size*0.8;
     font-weight: bold;
-    padding: 5px 70px;
-    @include flex(flex-end, center);
-    flex-direction: column;
-    .nav_wrapper {
-        min-width: 100px;
-        p {
-            margin: 0;
-        }
-        .buttons {
-            @include flex(center, space-between);
-            width: 140px;
-            margin-top: 5px;
+    .nav_container {
+        @include flex(flex-end, center);
+        flex-direction: column;
+        max-width: 900px;
+        margin: auto;
+        padding: 5px 15px;
+        .nav_wrapper {
+            text-align: right;
+            min-width: 100px;
+            p {
+                margin: 0;
+            }
+            .buttons {
+                @include flex(center, space-between);
+                width: 140px;
+                margin-top: 5px;
+            }
         }
     }
 }
@@ -57,7 +65,6 @@
     padding: 5px 12px;
     outline: none;
     &:hover, &:focus {
-        //background: lighten($color: $color-dark, $amount: 20);
         background-color: $color-secondary;
         font-size: $base-size;
     }
@@ -88,6 +95,6 @@
         padding: 5px 10px; 
     }
     .triangle {
-        height: 60%;
+        height: 50%;
     }
 }

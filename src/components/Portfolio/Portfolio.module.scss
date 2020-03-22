@@ -3,16 +3,16 @@
 
 .container {
   @include container-right-base;
-  @include flex(center, space-between);
+  @include flex(center, flex-end);
   flex-wrap: wrap;
 }
 .item {
   position: relative;
-  width: 49%;
+  width: 48%;
   min-width: 220px;
   text-align: center;
   height: 200px;
-  margin:  5px 0;
+  margin: 5px 0 5px 10px;
   &:before{
     @include before;
     background: $color-dark;
@@ -81,9 +81,12 @@ figcaption {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 695px) {
   .container { 
-    padding-right: 0;
+    //padding-right: 0;
     justify-content: center;
+    .item {
+      width: 310px;
+    }
   }
 }

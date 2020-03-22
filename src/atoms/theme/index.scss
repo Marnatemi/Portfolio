@@ -13,6 +13,7 @@ body {
     color: $color-dark;
     letter-spacing: 0.5px;
     overflow-y: scroll;
+    overflow-x: hidden; 
 }
 
 a, a:hover, a:visited {

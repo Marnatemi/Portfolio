@@ -1,15 +1,10 @@
 @import '../../atoms/theme/settings.scss';
 @import '../../atoms/theme/index.scss';
 
-.content {
-  margin: auto;
-  padding-right: 40px;
-  max-width: 650px;
-  border-right: solid $color-rose;
+.container {
+  @include container-right-base;
   @include flex(center, space-between);
   flex-wrap: wrap;
-  margin-bottom: 80px;
-  
 }
 .item {
   position: relative;
@@ -19,11 +14,8 @@
   height: 200px;
   margin:  5px 0;
   &:before{
-    content: '';
-    display: block;
-    position: absolute;
+    @include before;
     background: $color-dark;
-    //z-index: 1;
     width: 100%;
     height: 100%;
     border-radius: $radius*5;
@@ -44,23 +36,17 @@ figcaption {
   font-size: 40px;
 
   .item_title {
-    position: absolute;
-    //display: none;
+    @include center; 
     width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);  
     z-index: 2;
     color: $color-light;
     font-family: $font-title;
     margin: 0;
   }
   .item_subtitle{
-    position: absolute;
-    width: 100%;
+    @include center;
     top: 70%;
-    left: 50%;
-    transform: translate(-50%,-50%); 
+    width: 100%;
     z-index: 2;
     margin: 0;
     opacity: 0;
@@ -71,35 +57,32 @@ figcaption {
   
 }
 .item:hover {
-  a figcaption {
-    .item_title {
-    transition: 0.5s;
+  .item_title {
     top:40%;
+    transition: $transition;
   }
   .item_subtitle{
-    transition: 0.5s;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%,-50%);  
+    transition: $transition;
+    top: 65%; 
     text-transform: uppercase;
     opacity: 1;
     font-family: $font-subtitle;
     color: $color-primary;
     font-size: $base-size*1.5;
     &:before {
-      content: '';
-      display: block;
-      margin:auto;
+      @include before;
+      position: relative;
+      margin: auto;
       background: $color-primary;
       width: 20%;
       height: 2px;
       border-radius: $radius*5;
     }
-  }} 
+  }
 }
 
 @media (max-width: 576px) {
-  .content { 
+  .container { 
     padding-right: 0;
     justify-content: center;
   }

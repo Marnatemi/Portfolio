@@ -10,7 +10,7 @@ const Section = ({ title, variant = '', children, subtitle }) => {
     // eslint-disable-next-line prefer-template
     <section className={styles.section + variant.split(' ').map(name => ' ' + (styles[name] || name)).join('')}>
       {console.log()}
-      <article className={styles.wrapper}>
+      <article className={styles.article}>
         <h2 className={styles.title}>{title}</h2>
         <h3 className={styles.subtitle}>{subtitle}</h3>
         {children}

@@ -22,18 +22,6 @@ class App extends React.Component {
     console.log(this.state);
   }
 
-  // changeLanguage() {
-  //   dispatcher.register((dispatch) => {
-  //     if (dispatch.type === 'EN') {
-  //       this.setState({ language: data[0] })
-  //     } else if (dispatch.type === 'PL') {
-  //       this.setState({language: data[1]})
-  //     } else if (dispatch.type === 'FR') {
-  //       this.setState({language: data[2]})
-  //     } 
-  //   })
-  // }
-  
   handler(lang) {
     this.setState({
       language: data[lang],
@@ -56,10 +44,5 @@ class App extends React.Component {
     );
   }
 }
-
-// App.propTypes = {
-//   language: PropTypes.object,
-// };
-
 
 export default App;

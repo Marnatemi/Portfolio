@@ -1,15 +1,10 @@
 @import '../../atoms/theme/settings.scss';
 @import '../../atoms/theme/index.scss';
 
-.content {
-  //margin-right: 17%;
-  margin: auto;
-  //padding-right: 5%;
-  max-width: 650px;
-  border-right: solid $color-rose;
-  margin-bottom: 80px;
+.container {
+  @include container-right-base;
   text-align: center;
-  color: $color-dark;
+  padding-right: 0;
 }
 
 .form_group {
@@ -34,7 +29,7 @@
     text-align: center;
     &:focus{
       box-shadow: 0 0 4px $color-dark;
-      
+      //transition: $transition;
     }
   }
 }
@@ -46,14 +41,12 @@
   border-color: $color-rose;
   &:hover {
     background-color: darken($color: $color-secondary, $amount: 10);
+    //transition: $transition;
   }
   border-radius: $radius;
   padding: 10px 20px;
   font-size: 18px;
   font-family: $font-text;
-  // &:hover {
-  //   background-color: lighten($color: $color-rose, $amount: 10);
-  // }
   .icon {
     margin-left: 5px;
   }

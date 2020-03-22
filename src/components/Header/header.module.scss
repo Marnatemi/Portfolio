@@ -3,17 +3,16 @@
 
 .container {
     max-width: 900px;
-    min-height: 300px;
     height: 100vh;
     margin: auto;
     @include flex(center, flex-end);
 }
+
 .header_wrapper{   
     height: auto;
-
     h1 {
         margin: 0 10px;
-        @include title1;
+        @include title;
         color: $color-dark;
     }
     h5 {
@@ -34,7 +33,6 @@
     padding: 5px 70px;
     @include flex(flex-end, center);
     flex-direction: column;
-    position: relative;
     .nav_wrapper {
         min-width: 100px;
         p {
@@ -44,56 +42,32 @@
             @include flex(center, space-between);
             width: 140px;
             margin-top: 5px;
-            // &:focus{
-            //     outline: none;
-            // }
         }
     }
 }
+
 .btn {
-    //z-index: 1;
     font-family: $font-text;
     font-size: $base-size/1.5;
     color: $color-light;
     background-color: $color-dark; 
     border:2px solid $color-rose;
-    border-color: $color-rose;
     border-radius: $radius;
     cursor: pointer;
     padding: 5px 12px;
     outline: none;
     &:hover, &:focus {
-        background: lighten($color: $color-dark, $amount: 20);
+        //background: lighten($color: $color-dark, $amount: 20);
+        background-color: $color-secondary;
+        font-size: $base-size;
     }
 }
 
-
-// .triangle{
-//     height:100vh;
-//     width:100vw;
-//     position:absolute;
-//     overflow:hidden;
-//     &:after{
-//         height:100%;
-//         width:100%;
-//         transform: rotate(135deg);
-//         content:'';
-//         display:block;
-//         position:absolute;
-//         top: -40%;
-//         left:-45%;
-//         background-image:url(../../images/selective-color-photography-of-pink-petaled-flower-1182338.jpg);
-//         background-size: cover; 
-//     }
-// }
-
 .triangle {
     position: absolute;
-    width: 60%;
+    width: 50%;
     height: 100%;
-    background-image:url(../../images/selective-color-photography-of-pink-petaled-flower-1182338.jpg);
-    background-size: cover; 
-    background-position: center;
+    @include background-image(url(../../images/selective-color-photography-of-pink-petaled-flower-1182338.jpg));
     clip-path: polygon(0 0,100% 0, 0 100%);
     z-index: 2;
 }
@@ -114,7 +88,6 @@
         padding: 5px 10px; 
     }
     .triangle {
-        width: 50%;
         height: 60%;
     }
 }

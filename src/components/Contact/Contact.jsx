@@ -54,7 +54,7 @@ class Contact extends React.Component {
     const { title, name, email, message, placeholder, button, modal: { status, text } } = this.props;
     return (
       <Section title={title} variant="right_light">
-        <div className={styles.content}>
+        <div className={styles.container}>
           <form
             id="form"
             onSubmit={this.submitForm}

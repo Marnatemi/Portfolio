@@ -7,7 +7,7 @@ import styles from './AboutMe.module.scss';
 
 const AboutMe = ({ title, text }) => (
   <Section title={title} variant="left_light">
-    <div className={styles.content}>
+    <div className={styles.container}>
       {text.map(paragraph => (
         <p key={paragraph} className={styles.text}>{paragraph}</p>
       ))}

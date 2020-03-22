@@ -2,11 +2,8 @@
 @import '../../atoms/theme/index.scss';
 
 .page{
-  //width: 100%;
   height: 100vh;
-  background-image:url(https://i.postimg.cc/DwjNWbHB/selective-color-photography-of-pink-petaled-flower-1182338.jpg);
-  background-size: cover;
-  background-position: center;
+  @include background-image (url(https://i.postimg.cc/DwjNWbHB/selective-color-photography-of-pink-petaled-flower-1182338.jpg));
   @include flex (center, center);
   .card {
     width: 80%;
@@ -14,7 +11,7 @@
     max-width: 670px;
     height: 400px;
     background: $color-light;
-    box-shadow: 0 5px 8px $color-dark;
+    box-shadow: $box-shadow;
     border-radius:$radius;
     @include flex (center, center);
   }
@@ -31,17 +28,11 @@
     color: $color-dark;
     position: relative;
     &:before {
-      content: '';
-      display: block;
-      position: absolute;
+      @include before;
       height: 250px;
       width: 250px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      background-image:url(https://i.postimg.cc/FzbN57M4/flower-4771034-1280.png);
-      background-size: cover;
-      background-position: center;
+      @include center;
+      @include background-image(url(https://i.postimg.cc/FzbN57M4/flower-4771034-1280.png));
     }
   }
   .subtitle {

@@ -9,7 +9,7 @@
   margin-bottom: $base-size*5;
   position: relative;
 
-  .wrapper{
+  .article{
     width: 80%;
     max-width: 750px;
     margin: auto;
@@ -22,19 +22,15 @@
   font-size: $base-size*3;
   color: $color;
     margin-bottom: $base-size/2;
-  //padding: 0 $base-size*3;
 }
 @mixin subtitle-base($color) {
   font-family: $font-subtitle;
   font-size: $base-size*1.5;
   color: $color;
   margin: 0 0 $base-size*2;
-  //padding: 0 $base-size*2;
 }
 @mixin before-base($color, $deg) {
-  content: '';
-  display: block;
-  position: absolute;
+  @include before;
   background: $color;
   z-index: -1;
   top: -40px;
@@ -55,6 +51,9 @@
     }
     .subtitle {
       @include subtitle-base($color-rose)
+    }
+    .container {
+      box-shadow: 2px solid $color-dark;
     }
   }
   &.right_light {

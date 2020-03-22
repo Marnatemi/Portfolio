@@ -7,7 +7,7 @@ import styles from './Portfolio.module.scss';
 
 const Portfolio = ({ title, subtitle, portfolio }) => (
   <Section title={title} subtitle={subtitle} variant="right_light">
-    <div className={styles.content}>
+    <div className={styles.container}>
       {portfolio.map(item => (
         <div key={item.title} className={styles.item}>
           <a href={item.link} target="_blank">

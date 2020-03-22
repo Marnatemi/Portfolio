@@ -6,14 +6,10 @@ import PropTypes from 'prop-types';
 import styles from '../Header/header.module.scss';
 
 const Navbar = ({ handler }) => {
-  function handleClick(e) {
-    e.preventDefault();
-    console.log('CLICKED!');
-  }
   return (
-    <div>
+    <nav>
       <div className={styles.triangle} />
-      <nav className={styles.navbar}>
+      <div className={styles.navbar}>
         <div className={styles.nav_wrapper}>
           <p>Choose your language :</p>
           <div className={styles.buttons}>
@@ -22,8 +18,8 @@ const Navbar = ({ handler }) => {
             <button type="button" onClick={() => handler(2)} className={styles.btn}>FR</button>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 

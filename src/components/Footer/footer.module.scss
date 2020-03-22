@@ -2,8 +2,7 @@
 @import '../../atoms/theme/index.scss';
 
 .footer {
-  background-image:url(../../images/selective-color-photography-of-pink-petaled-flower-1182338.jpg);
-  background-size: cover;
+  @include background-image(url(../../images/selective-color-photography-of-pink-petaled-flower-1182338.jpg));
   background-position: right bottom;
   height: 95px;
   width: 100%;
@@ -33,7 +32,3 @@
   }
 }
 
-
-@media (max-width: 576px) {
-  //p{background-color: $color-dark;}
-}

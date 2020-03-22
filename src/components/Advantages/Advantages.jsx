@@ -20,8 +20,8 @@ function icons(icon) {
 
 const Advantages = ({ title, subtitle, advantage }) => (
   <Section title={title} subtitle={subtitle} variant="left_dark">
-    <div className={styles.content}>
-      <div className={styles.advantages_wrapper}>
+    <div className={styles.container}>
+      <div className={styles.advantages}>
         {advantage.map(item => (
           <div key={item.title} className={styles.advantage + item.class.split(' ').map(name => ' ' + (styles[name] || name)).join('')}>
             <FontAwesomeIcon icon={icons(item.icon)} className={styles.icon} />

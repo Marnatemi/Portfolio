@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/gatsby-redux-starter',
+  pathPrefix: '/Portfolio',
   siteMetadata: {
     title: 'Marlena Czerwińska',
   },

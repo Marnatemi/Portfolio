@@ -12,9 +12,9 @@ const Footer = () => (
   <footer className={styles.footer}>
     <div className={styles.container}>
       <div className={styles.links_wrapper}>
-        <a href="http://" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithubSquare} /></a>
-        <a href="http://" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-        <a href="http://" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookSquare} /></a>
+        <a href="https://github.com/Marnatemi" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithubSquare} /></a>
+        <a href="https://www.linkedin.com/in/marlena-czerwi%C5%84ska-8650051a5/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href="https://www.facebook.com/marlena.stefankiewicz.3" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookSquare} /></a>
       </div>
       <p className="footer-gatsby">Copyright © Marlena Czerwińska {currentYear}</p>
     </div>

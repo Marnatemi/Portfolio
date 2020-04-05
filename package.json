@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-redux-starter",
-  "description": "Gatsby's redux starter - Based in Gatsby's default starter",
+  "name": "Portfolio",
+  "description": "Gatsby's Portfolio- Based in Gatsby's redux starter",
   "version": "1.0.0",
-  "author": "Alex Vivero",
+  "author": "Marlena Czerwińska",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",

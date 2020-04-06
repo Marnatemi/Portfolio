@@ -1,0 +1,63 @@
+@import '../../atoms/theme/settings.scss';
+@import '../../atoms/theme/index.scss';
+
+.navbar {
+  height: 70px;
+  background: $color-dark;
+  color: $color-rose;
+  font-size: $base-size*0.8;
+  font-weight: bold;
+  .nav_container {
+      @include flex(flex-end, center);
+      flex-direction: column;
+      max-width: 900px;
+      margin: auto;
+      padding: 5px 15px;
+      .nav_wrapper {
+          text-align: right;
+          min-width: 100px;
+          p {
+              margin: 0;
+          }
+          .buttons {
+              @include flex(center, space-between);
+              width: 140px;
+              margin-top: 5px;
+          }
+      }
+  }
+}
+
+.btn {
+  font-family: $font-text;
+  font-size: $base-size/1.5;
+  color: $color-light;
+  background-color: $color-dark; 
+  border:2px solid $color-rose;
+  border-radius: $radius;
+  cursor: pointer;
+  padding: 5px 12px;
+  outline: none;
+  &:hover, &:focus {
+      background-color: $color-secondary;
+      font-size: $base-size;
+  }
+}
+
+.triangle {
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  @include background-image(url(https://i.postimg.cc/vTptm4vG/selective-color-photography-of-pink-petaled-flower-1182338.jpg));
+  clip-path: polygon(0 0,100% 0, 0 100%);
+  z-index: 2;
+}
+
+@media (max-width: 576px) and (orientation: portrait) {
+  .navbar {
+      padding: 5px 10px; 
+  }
+  .triangle {
+      height: 50vh;
+  }
+}

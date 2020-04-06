@@ -182,7 +182,7 @@
       "subtitle": "Une optimiste réaliste, sans relâche poursuivant le but."
     },
     "aboutMe": {
-      "title": "Moi",
+      "title": "À propos de moi",
       "text": [
       "Je me décris timidement comme une personne ayant de nombreux intérêts. J'aime découvrir de nouvelles choses, chercher et explorer les sujets qui m'intéressent. Je m'intéresse surtout à l'histoire - livres, films, articles qui décrivent la période du Moyen Âge à la Première Guerre mondiale et la culture et la musique françaises.",
       "J'ai commencé à apprendre la programmation en mai 2019. En recherchant d'inspiration sur mon parcours professionnel, je suis tombé sur le thème du web design et ce fut le coup de foudre! :) Ce que j'aime le plus en programmation, c'est la créativité que l'on peut montrer en travaillant sur des projets, des fonctionnalités et des problèmes.",
@@ -232,7 +232,7 @@
         {
           "icon": "faBolt",
           "title": "Enthousiasme",
-          "text": "Je déteste m'ennuyer au travail, Je donne toujour 100%",
+          "text": "Je déteste l'ennui au travail, Je donne toujour 100%",
           "class": "active"
         },
         {

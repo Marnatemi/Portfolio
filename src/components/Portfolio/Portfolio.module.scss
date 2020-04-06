@@ -83,10 +83,11 @@ figcaption {
 
 @media (max-width: 695px) {
   .container { 
-    //padding-right: 0;
+    padding-right: 0;
     justify-content: center;
     .item {
       width: 310px;
+      margin-left: 0;
     }
   }
 }

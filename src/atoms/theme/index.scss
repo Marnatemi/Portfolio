@@ -3,8 +3,6 @@
 //@import url('../../components/Footer/footer.module.scss');
 
 
-html {
-}
 body {
     margin: 0;
     padding: 0;
@@ -14,8 +12,12 @@ body {
     line-height: 1.7;
     color: $color-dark;
     letter-spacing: 0.5px;
+    box-sizing: border-box;
 }
-* { outline: 1px solid red; }
+
+body > div {
+    overflow: hidden;
+}
 
 a, a:hover, a:visited {
     text-decoration: none;

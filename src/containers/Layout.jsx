@@ -17,6 +17,7 @@ const Layout = ({ children, lang, handler }) => {
         meta={[
           { name: 'description', content: 'Portfolio' },
           { name: 'keywords', content: 'portfolio, cv, junior' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' },
         ]}
       >
         <html lang={lang} />

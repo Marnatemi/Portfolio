@@ -19,9 +19,9 @@
 @mixin title-base($color) {
   position: relative;
   font-family: $font-title;
-  font-size: $base-size*3;
+  font-size: $base-size*3.5;
   color: $color;
-    margin-bottom: $base-size/2;
+  margin-bottom: $base-size/2;
 }
 @mixin subtitle-base($color) {
   font-family: $font-subtitle;

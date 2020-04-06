@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat|Dawning+of+a+New+Day|Merienda|Dosis|Satisfy|Nothing+You+Could+Do|PT+Sans|Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Satisfy|PT+Sans|Courgette|Dancing+Script&display=swap');
 
 $color-primary: #f6275D;
 $color-secondary: #8593a7;
@@ -6,7 +6,11 @@ $color-dark: #201520;
 $color-light: #f3f7f3;
 $color-rose: #B43D53;  
 
-$font-title: 'Satisfy';
+// $font-title: 'Satisfy';
+// $font-subtitle: 'Dosis';
+// $font-text: 'PT Sans';
+
+$font-title: 'Dancing Script';
 $font-subtitle: 'Dosis';
 $font-text: 'PT Sans';
 
@@ -22,8 +26,8 @@ $box-shadow: 0 5px 8px $color-dark;
 }
 
 @mixin title {
-  font-family: 'Satisfy';
-  font-weight: 400;
+  font-family: 'Dancing Script';
+  font-weight: 600;
   font-size: 65px; 
 }
 

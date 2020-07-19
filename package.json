@@ -19,7 +19,7 @@
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "material-icons": "^0.2.3",
     "node-sass": "^4.9.3",
     "nodemailer": "^6.4.4",

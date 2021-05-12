@@ -22,7 +22,7 @@
     "lodash": "^4.17.11",
     "material-icons": "^0.2.3",
     "node-sass": "^4.9.3",
-    "nodemailer": "^6.4.4",
+    "nodemailer": "^6.4.16",
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-bootstrap": "^1.0.0-beta.17",

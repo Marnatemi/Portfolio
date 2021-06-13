@@ -18,10 +18,10 @@
       "subtitle": "& technologies",
       "portfolio": [
         {
-          "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
-          "title": "JS Game",
-          "subtitle": "HTML SCSS JS",
-          "link": "https://simple-js-game.herokuapp.com/"
+          "img": "https://i.postimg.cc/gJqkGF0v/image.png",
+          "title": "Portfolio site",
+          "subtitle": "Gatsby",
+          "link": "https://marnatemi.github.io/Portfolio/"
         },
         {
           "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
@@ -30,10 +30,10 @@
           "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
         },
         {
-          "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
-          "title": "To do List",
-          "subtitle": "React",
-          "link": "https://the-best-to-do-list.herokuapp.com/"
+          "img": "https://i.postimg.cc/N0KHGMhR/image.png",
+          "title": "Music Quiz",
+          "subtitle": "React, Material UI",
+          "link": "https://marnatemi.github.io/EurovisionQuiz/"
         },
         {
           "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
@@ -106,10 +106,10 @@
       "subtitle": "& technologie",
       "portfolio": [
         {
-          "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
-          "title": "Gra JS",
-          "subtitle": "HTML SCSS JS",
-          "link": "https://simple-js-game.herokuapp.com/"
+          "img": "https://i.postimg.cc/gJqkGF0v/image.png",
+          "title": "Strona portfolio",
+          "subtitle": "Gatsby",
+          "link": "https://marnatemi.github.io/Portfolio/"
         },
         {
           "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
@@ -118,10 +118,10 @@
           "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
         },
         {
-          "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
-          "title": "To do List",
-          "subtitle": "React",
-          "link": "https://the-best-to-do-list.herokuapp.com/"
+          "img": "https://i.postimg.cc/N0KHGMhR/image.png",
+          "title": "Quiz Muzyczny",
+          "subtitle": "React, Material UI",
+          "link": "https://marnatemi.github.io/EurovisionQuiz/"
         },
         {
           "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
@@ -194,10 +194,10 @@
       "subtitle": "& technologies",
       "portfolio": [
         {
-          "img": "https://i.postimg.cc/Wbc6BY16/Game.png",
-          "title": "JS Jeux",
-          "subtitle": "HTML SCSS JS",
-          "link": "https://simple-js-game.herokuapp.com/"
+          "img": "https://i.postimg.cc/gJqkGF0v/image.png",
+          "title": "Portfolio site",
+          "subtitle": "Gatsby",
+          "link": "https://marnatemi.github.io/Portfolio/"
         },
         {
           "img": "https://i.postimg.cc/pL2QT98m/Pizzeria.png",
@@ -206,10 +206,10 @@
           "link": "https://mamma-mia-the-best-pizzeria.herokuapp.com/"
         },
         {
-          "img": "https://i.postimg.cc/RZX7nMQX/To-do-list.png",
-          "title": "To do List",
-          "subtitle": "React",
-          "link": "https://the-best-to-do-list.herokuapp.com/"
+          "img": "https://i.postimg.cc/N0KHGMhR/image.png",
+          "title": "Quiz Musical",
+          "subtitle": "React, Material UI",
+          "link": "https://marnatemi.github.io/EurovisionQuiz/"
         },
         {
           "img": "https://i.postimg.cc/vmTWrp0M/Utopia-shop.png",
